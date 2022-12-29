@@ -40,7 +40,28 @@ export class AppComponent {
   };
 
   modules = {
-    toolbar: [['image', 'video']],
+    toolbar: [
+      ['background'],
+      ['bold'],
+      ['color'],
+      ['font'],
+      ['code'],
+      ['italic'],
+      ['link'],
+      ['size'],
+      ['strike'],
+      ['script'],
+      ['underline'],
+      ['blockquote'],
+      ['header'],
+      ['indent'],
+      ['list'],
+      ['align'],
+      ['direction'],
+      ['code-block'],
+      ['image'],
+      ['video'],
+    ],
     imageHandler: {
       upload: this.upload,
       accepts: ['png', 'jpg', 'jpeg', 'jfif'], // Extensions to allow for images (Optional) | Default - ['jpg', 'jpeg', 'png']
